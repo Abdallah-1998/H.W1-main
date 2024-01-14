@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <title>Anime Central | Fantasy</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Anime Central</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Action.html">Action</a></li>
+            <li><a href="Fantasy.html">Fantasy</a></li>
+            <li><a href="Drama.html">Drama</a></li>
+            <li><a href="Sci-Fi.html">Sci-Fi</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <section>
+            <div class="dropdown-container">
+              <label for="genreDropdown">Select Date:</label>
+              <select id="genreDropdown">
+                <option value="...">...</option>
+                <option value="Today">Today</option>
+                <option value="Last Week">Last Week</option>
+                <option value="Last Month">Last Month</option>
+                <option value="Last Year">Last Year</option>
+              </select>
+            </div>
+        </section>
+
+        <section>
+            <h2>Naruto Shippuden</h2>
+            <p>Naruto (, NARUTO) is a manga by Masashi Kishimoto with an anime TV series adaptation. Its main character, Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.
+
+                The manga was first published by Shueisha in 1999 in the 43rd issue of Japan's Shonen Jump magazine. VIZ Media publishes a translated version in the American Shonen Jump, and is currently within a few volumes of the Japanese publication. Naruto has become VIZ Media's best-selling manga series.[1]
+                
+                The anime series, produced by Studio Pierrot and Aniplex, premiered across Japan on the terrestrial TV Tokyo network and the anime satellite television network Animax on October 3, 2002, and is still being aired. Viz also licensed the anime for North American production. Naruto debuted in the United States on Cartoon Network's Toonami programming block on September 10, 2005, and in Canada on YTV's Bionix on September 16, 2005. Naruto began showing in the UK on Jetix on July 22, 2006. It began showing on Toasted TV on January 12, 2007 in Australia, although it could be watched on Cartoon Network in 2006. The first series lasted nine seasons, while the second began its first on February 15, 2007.</p>
+            <div class="anime-image">
+                <div class="watch-link">
+                    <a href="https://www.crunchyroll.com/series/GYQ4MW246/naruto-shippuden">Click here for watching</a>
+                </div> 
+                <h1>OFFICIAL TRAILER</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ehj_jotk5-8?si=O9ysgUhcEv3JteHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                <img src="images/pic6.gif" alt="Featured Anime">
+                <img src="images/pic5.gif" alt="Featured Anime">
+            </div>
+        </section>
+        <section>
+            <div class="rating">
+              <input type="radio" id="star-5" name="rating" value="5">
+              <label for="star-5" title="5 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-4" name="rating" value="4">
+              <label for="star-4" title="4 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-3" name="rating" value="3">
+              <label for="star-3" title="3 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-2" name="rating" value="2">
+              <label for="star-2" title="2 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-1" name="rating" value="1">
+              <label for="star-1" title="1 star">
+                <i class="fas fa-star"></i>
+              </label>
+            </div>
+            <button id="submit-rating">Submit Rating</button>
+    
+            <!-- Add the API integration content here -->
+            <div class="weather-info" id="weatherInfo">
+              <!-- Weather details will be dynamically updated here -->
+            </div>
+          </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Anime Central. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <title>Anime Central | Action</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Anime Central</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Action.html">Action</a></li>
+            <li><a href="Fantasy.html">Fantasy</a></li>
+            <li><a href="Drama.html">Drama</a></li>
+            <li><a href="Sci-Fi.html">Sci-Fi</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <section>
+            <div class="dropdown-container">
+              <label for="genreDropdown">Select Date:</label>
+              <select id="genreDropdown">
+                <option value="...">...</option>
+                <option value="Today">Today</option>
+                <option value="Last Week">Last Week</option>
+                <option value="Last Month">Last Month</option>
+                <option value="Last Year">Last Year</option>
+              </select>
+            </div>
+        </section>
+
+        <section>
+            <h2>One Piece</h2>
+            <p>One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled into 107 tankōbon volumes as of November 2023. The story follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates, where he explores the Grand Line in search of the mythical treasure known as the "One Piece" in order to become the next King of the Pirates.
+
+				The manga spawned a media franchise, having been adapted into a festival film by Production I.G, and an anime series by Toei Animation, which began broadcasting in 1999. Additionally, Toei has developed fourteen animated feature films, one original video animation, and thirteen television specials. Several companies have developed various types of merchandising and media, such as a trading card game and numerous video games. The manga series was licensed for an English language release in North America and the United Kingdom by Viz Media and in Australia by Madman Entertainment. The anime series was licensed by 4Kids Entertainment for an English-language release in North America in 2004 before the license was dropped and subsequently acquired by Funimation in 2007.
+				
+				One Piece has received praise for its storytelling, world-building, art, characterization, and humor. It has received many awards and is ranked by critics, reviewers, and readers as one of the best manga of all time. By August 2022, it had over 516.6 million copies in circulation in 61 countries and regions worldwide, making it the best-selling manga series in history, and the best-selling comic series printed in book volume. Several volumes of the manga have broken publishing records, including the highest initial print run of any book in Japan. In 2015 and 2022, One Piece set the Guinness World Record for "the most copies published for the same comic book series by a single author". It was the best-selling manga for eleven consecutive years from 2008 to 2018, and is the only manga that had an initial print of volumes of above 3 million continuously for more than 10 years, as well as the only that had achieved more than 1 million copies sold in all of its over 100 published tankōbon volumes. One Piece is the only manga whose volumes have ranked first every year in Oricon's weekly comic chart existence since 2008.</p>
+            <div class="anime-image">
+				<div class="watch-link">
+                    <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece">Click here for watching</a>
+                </div> 
+				<h1>OFFICIAL TRAILER</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/MCb13lbVGE0?si=iCMFLHmt-M1bNZFK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                <img src="images/pic7.gif" alt="Featured Anime">
+                <img src="images/pic8.gif" alt="Featured Anime">
+            </div>
+        </section>
+        <section>
+            <div class="rating">
+              <input type="radio" id="star-5" name="rating" value="5">
+              <label for="star-5" title="5 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-4" name="rating" value="4">
+              <label for="star-4" title="4 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-3" name="rating" value="3">
+              <label for="star-3" title="3 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-2" name="rating" value="2">
+              <label for="star-2" title="2 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-1" name="rating" value="1">
+              <label for="star-1" title="1 star">
+                <i class="fas fa-star"></i>
+              </label>
+            </div>
+            <button id="submit-rating">Submit Rating</button>
+    
+            <!-- Add the API integration content here -->
+            <div class="weather-info" id="weatherInfo">
+              <!-- Weather details will be dynamically updated here -->
+            </div>
+          </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Anime Central. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

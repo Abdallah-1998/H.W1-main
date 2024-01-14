@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <title>Anime Central | Sci-Fi</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Anime Central</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Action.html">Action</a></li>
+            <li><a href="Fantasy.html">Fantasy</a></li>
+            <li><a href="Drama.html">Drama</a></li>
+            <li><a href="Sci-Fi.html">Sci-Fi</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <section>
+            <div class="dropdown-container">
+              <label for="genreDropdown">Select Date:</label>
+              <select id="genreDropdown">
+                <option value="...">...</option>
+                <option value="Today">Today</option>
+                <option value="Last Week">Last Week</option>
+                <option value="Last Month">Last Month</option>
+                <option value="Last Year">Last Year</option>
+              </select>
+            </div>
+        </section>
+
+        <section>
+            <h2>Code Geass</h2>
+            <p>After being given a mysterious power to control others, an outcast prince becomes the masked leader of the rebellion against an all-powerful empire.
+                The Empire of Britannia has invaded Japan using giant robot weapons called Knightmare Frames. Japan is now referred to as Area 11, and its people the 11's. A Britannian who was living in Japan at the time, Lelouch, vowed to his Japanese friend Suzaku that he'd destroy Britannia. Years later, Lelouch is in high school, but regularly skips out of school to go play chess and gamble on himself. One day, he stumbles on terrorists 11's who've stolen a military secret and is caught by a member of the Britannian task force sent after them, who is Suzaku. As the rest of the squad arrives, Suzaku is shot for disobeying orders, while the military secret, a young immortal witch, gives Lelouch the power of Geass, which makes anyone obey any order. While Suzaku is secretly made the pilot of Britannia's brand new prototype Knightmare, Lancelot, Lelouch becomes the masked Zero to lead the rebellion to destroy Britannia once and for all.</p>
+            <div class="anime-image">
+                <div class="watch-link">
+                    <a href="https://www.crunchyroll.com/series/GY2P9ED0Y/code-geass">Click here for watching</a>
+                </div> 
+                <h1>OFFICIAL TRAILER</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0E_a_Y5s4LE?si=romBlnNaLjnDSyGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <img src="images/pic3.gif" alt="Featured Anime">
+                <img src="images/pic4.gif" alt="Featured Anime">
+            </div>
+        </section>
+        <section>
+            <div class="rating">
+              <input type="radio" id="star-5" name="rating" value="5">
+              <label for="star-5" title="5 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-4" name="rating" value="4">
+              <label for="star-4" title="4 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-3" name="rating" value="3">
+              <label for="star-3" title="3 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-2" name="rating" value="2">
+              <label for="star-2" title="2 stars">
+                <i class="fas fa-star"></i>
+              </label>
+              <input type="radio" id="star-1" name="rating" value="1">
+              <label for="star-1" title="1 star">
+                <i class="fas fa-star"></i>
+              </label>
+            </div>
+            <button id="submit-rating">Submit Rating</button>
+    
+            <!-- Add the API integration content here -->
+            <div class="weather-info" id="weatherInfo">
+              <!-- Weather details will be dynamically updated here -->
+            </div>
+          </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Anime Central. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
